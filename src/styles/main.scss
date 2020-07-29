@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#container {
+    position: relative;
+}
+#container canvas, #overlay {
+    position: absolute;
+}
+canvas {
+    border: 1px solid black;
+}
